@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Online Khmer Hand Writing Recognition";
+}
+
+<h2>Demo on Online Khmer Character Hand Writing Recognition</h2>
+Draw Khmer Characters in the Canvas
+
+<div id="place">
+  <div id="draw-area">
+  <div id="drawkhmer-char-canvas" class="drawkhmer-canvas"></div>
+  <div id="found-khmer-char"></div>
+  </div>
+  <div id="drawkhmer-desc">Once you draw on the canvas, the result will come out with confidence level. The more confidence value, the more likely character would be.</div>
+  <div style="clear: both"></div>
+  <input type="checkbox" id="show-numbers" checked="checked" /><label for="show-numbers">Show stroke numbers</label>
+  <div>
+    <!--<input id="drawkhmer-clear-button" type="button" value="Clear everything" />-->
+    <a id="drawkhmer-clear-button" href="#" class="btn-violet">Clear</a>
+    <a id="drawkhmer-back-line-button" href="#" class="btn-violet">Remove Last Stroke</a>
+    <!--<input id="drawkhmer-back-line-button" type="button" value="Remove last stroke" />-->
+  </div>
+</div>
+
+
+@section scripts{
+  <link href="@Url.Content("~/Content/writing/draw.css")" rel="stylesheet" type="text/css" />
+  <link href="@Url.Content("~/Content/writing/khmer-reco.css")" rel="stylesheet" type="text/css" />
+  <script src="@Url.Content("~/Scripts/writing/draw-13.js")" type="text/javascript"></script>
+  <script src="@Url.Content("~/Scripts/writing/kudo-13.js")" type="text/javascript"></script>
+  <!--<script src="@Url.Content("~/Scripts/writing/kanji-13.js")" type="text/javascript"></script>-->
+}
+
+<script language="javascript" type="text/javascript">
+  $(document).ready(function () {
+    drawkhmer_onload();
+  });
+</script>

@@ -1,0 +1,142 @@
+﻿#draw-area
+{
+  float: left;
+  /*
+  border-collapse: collapse; 
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  border-radius: 7px 7px 7px 7px;
+  padding: 5px;
+*/
+}
+
+#found-khmer-char  
+{
+  float: left;
+  text-decoration:none;
+  color: #007;
+  margin-left: 20px;
+  font-size:18px;
+  text-align:left;
+  vertical-align:middle;
+  line-height: 30px;
+  width: 300px;
+}
+
+#drawkhmer-desc
+{
+  float: left;
+  width: 300px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.write_kanji {
+font-size:23px;
+text-align:center;
+vertical-align:middle;
+}
+.write_kanji:hover {
+color:green;
+}
+.unlinked_kanji {
+font-size:23px;
+text-align:center;
+vertical-align:middle;
+}
+#found_kanji a:hover {
+color: black;
+background-color: #CCF;
+}
+span#toggleobscuretext:hover {
+color:blue;
+background:skyblue;
+text-align: center;
+}
+p#kanji_container a:hover {
+background-color:gold;
+color:fuchsia;
+}
+#documentation {
+clear:left;
+}
+.number {
+background-color:aliceblue;
+color:#000;
+font-weight: bold;
+text-align:center;
+padding:0;
+margin:0;
+}
+.nojavascript {
+background-color: gold;
+color:black;
+border-collapse: collapse; 
+border-style: solid;
+border-width: 1px;
+border-color: #888;
+margin: 10px;
+padding: 10px;
+}
+.nojavascript h2 {
+font-size:50px;
+color: red;
+padding:0px;
+margin:0px;
+}
+.overflowbuttons {
+float: left;
+}
+.overflowbuttons:hover {
+background-color:#F00;
+color:#99F;   
+}
+.overflowbuttons a {
+font-size:20px;
+}
+.overflowbuttons a:hover {
+color:#99F;   
+}
+.overflowbuttons a.deadupbutton {
+color:#000;
+opacity:.20;
+filter:alpha(opacity=20);
+}
+.overflowbuttons a.deadupbutton:hover {
+color:#000;
+}
+#found_kanji a.number {
+font-size:20px;
+}
+
+#results_table {
+padding: 10px;
+}
+#mr_results {
+text-align: left;
+}
+
+
+
+#input_box_div {
+padding:0px;
+margin:0px;
+/*padding-left:30px;*/
+}
+#input_box_input {
+font-size: 110%;
+}
+.message {
+padding:10px;
+margin:10px;
+border: solid 1px;
+background-color: #DDA;
+}
+.master {
+vertical-align:top;
+}
+#user-image {
+border:none;
+}
+

@@ -1,0 +1,58 @@
+﻿.drawkhmer-canvas 
+{
+  float: left;
+   width: 300px;
+   height: 300px;
+   margin: 0px;
+   background-color: aliceblue;
+   border-collapse: collapse; 
+   border-style: solid;
+   border-width: 1px;
+   border-color: #888;
+   -moz-user-select:none;
+   border-radius: 7px 7px 7px 7px;
+}
+
+.drawkhmer-dot {
+  position:absolute;
+  background:#000;
+  width:3px;
+  height:3px;
+  z-index:32768;
+  overflow: hidden;
+}
+
+.drawkhmer-stroke-number {
+  position:absolute;
+  z-index:32768;
+  overflow: hidden;
+  color:purple;
+  background-color: aliceblue;
+  font-weight:bold;
+  font-size:14px;
+}
+
+::-moz-selection{
+ background-color: aliceblue;
+	color:purple;
+}
+
+::selection {
+ background-color: aliceblue;
+	color:purple;
+}
+#canvas-advert {
+    font-size:17px;
+    font-weight:bold;
+    padding:0px;
+    margin:10px;
+    margin-left:80px;
+}
+#canvas-advert-inline {
+    font-size:17px;
+    font-weight:bold;
+    background: #EFF;
+    padding:5px;
+    margin:0px;
+    border: solid 1px;
+}
